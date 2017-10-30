@@ -14,7 +14,7 @@
    "manifest_version": 2,
    "name": "Bot365 v2",
    "permissions": [ "storage","webNavigation","tabs", "chrome://favicon/","https://mobile.365sport365.com/*, http://bot-ao.com/*" ],
-   "version": "2.5.1",
+   "version": "2.6.0",
    "web_accessible_resources": [ "images/*" ],
    "background": {
     "scripts": ["js/jquery-2.1.4.min.js","js/GET_background.js","js/background.js"]
@@ -23,7 +23,7 @@
     {
       "matches": ["https://mobile.365sport365.com/*"],
       "css": ["css/content.css"],
-      "js": ["js/jquery-2.1.4.min.js", "js/login.js","js/GET_content.js","js/content.js","js/my_bets.js"]
+      "js": ["credenciais.js","js/jquery-2.1.4.min.js", "js/login.js","js/GET_content.js","js/content.js","js/my_bets.js"]
     }
   ]
 }
