@@ -1,2 +1,2 @@
-localStorage.senha_bet365='guilherme_rpa';
-localStorage.usuario_bet365='Silver1122';
+localStorage.senha_bet365='';
+localStorage.usuario_bet365='';
